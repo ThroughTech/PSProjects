@@ -5,8 +5,8 @@ Content:
 
 1. Support Information Script (Tony Hawk,  2019) 
 
+NOTE - This script is not deployable in its current state having been redacted to remove network-specific addresses. You will need to review and add your network addressing in as per the commented code before it can be used.
+
 This script is designed to be deployed to Windows 10 client devices and executed by the user in the event that there is a major service incident or when performance and connectivity issues need to be escalated beyond 1st-line support.
 
 The script will run checks of Win10/Defender configuration status,  proxy connectivity to BBC through any number of proxy IPs, file transfer speeds,  file share access,  logon server and numerous other useful troubleshooting steps. Results are written to a text file with a plain-english introduction,  which is subsequently uploaded to MS Teams  (we send it to an Incident Management team currently).   If there is no network connectivity,   then the user can always read key test results over the phone.
-
-This uploaded version has been redacted,   so you'll need to tweak it to add addresses relevant to your organisation.
